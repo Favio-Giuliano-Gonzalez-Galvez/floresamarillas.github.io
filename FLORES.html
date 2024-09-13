@@ -309,5 +309,12 @@
       </div>
     </div>
     <script src="main.js"></script>
+    <script>
+      let boton = document.getElementById("container")
+      let sound = new Audio("./floresamarillas.mp3")
+      boton.addEventListener('click', function() {
+          sound.play()
+      })
+    </script>
   </body>
 </html>
